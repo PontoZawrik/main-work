@@ -77,7 +77,7 @@
     gap: 96px;
 }
 
-.card {
+.stat-card {
     border-top: 2px solid #000;
     padding-top: 20px;
 
@@ -106,26 +106,4 @@
     color: #D2F65A;
     font-size: 80px;
     font-weight: 600;
-}
-
-.logo-wrapper {
-    margin-bottom: 160px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 285px;
-}
-
-.logo-text {
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.logos {
-    width: 1180px;
-    display: flex;
-    justify-content: space-between;
 }

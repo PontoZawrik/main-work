@@ -1,0 +1,107 @@
+.logo-wrapper {
+    margin-bottom: 160px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 285px;
+}
+
+.logo-text {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logos {
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.values-wrapper {
+    margin-bottom: 160px;
+
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+}
+
+.service {
+    width: 752px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.heading p {
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.heading img {
+    width: 48px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.about-me h5 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.about-me {
+    color: var(--text-muted, rgba(25, 25, 25, 0.70));
+
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.skill-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.skill-card {
+    width: 752px;
+    background: #F8F8F8;
+    padding: 48px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skill-card h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.skill-card p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+}
