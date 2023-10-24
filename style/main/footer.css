@@ -1,0 +1,124 @@
+.footer {
+    background-color: #000;
+    padding-top: 128px;
+    padding-bottom: 64px;
+}
+
+.footer-slider {
+   background-color: #d2f65a;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+@keyframes text {
+    0% {
+        transform: translate(-100%, 0);
+    }
+
+    100% {
+        transform: translate(-200%, 0);
+    }
+}
+
+.footer-slider p {
+    text-align: center;
+    text-transform: uppercase;
+    animation: text 10s infinite linear;
+    padding-left: 100%;
+    white-space: nowrap;
+}
+
+.footer-heading {
+    margin-bottom: 256px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer-heading img {
+    margin: 0 auto;
+
+    width: 50px;
+    height: 50px;
+}
+
+.footer-heading h2 {
+    margin: 0 auto;
+
+    color: var(--text-inverse, #FFF);
+    text-align: center;
+    font-size: 96px;
+    font-weight: 600;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+
+.footer-button {
+    margin: 0 auto;
+
+    color: #000;
+    background-color: #D2F65A;
+    padding: 16px;
+
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 677px;
+}
+
+.footer-lists {
+    display: flex;
+    gap: 48px;
+}
+
+.footer-list {
+    width: 364px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.list-heading {
+    color: var(--text-inverse, #FFF);
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.list li a {
+    color: var(--text-inverse, #FFF);
+
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-list .button {
+    margin-right: auto;
+
+    color: #000;
+    background-color: #D2F65A;
+    padding: 16px;
+
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
