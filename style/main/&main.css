@@ -7,6 +7,7 @@
 
 body {
     max-width: 1950px;
+	margin: 0 auto;
 
     font-family: "Clash Display";
 }
@@ -14,8 +15,7 @@ body {
 .container {
 	max-width: 1950px;
 
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 
 	padding-left: 15px;
 	padding-right: 15px;

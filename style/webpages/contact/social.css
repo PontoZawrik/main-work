@@ -1,0 +1,29 @@
+.social {
+    padding: 48px 0;
+    background: #D2F65A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+
+.social h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.social-list {
+    display: flex;
+    gap: 32px;
+}
+
+.social-list li a {
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
