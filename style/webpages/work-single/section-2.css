@@ -1,0 +1,57 @@
+.brand {
+    margin-bottom: 160px;
+
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+}
+
+.heading {
+    width: 752px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.heading p {
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.heading img {
+    width: 48px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.brand-card {
+    width: 752px;
+    background: #F8F8F8;
+    padding: 48px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.brand-card h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}   
+
+.brand-card p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%; /* 30.6px */
+}
