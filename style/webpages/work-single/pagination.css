@@ -6,9 +6,15 @@
     justify-content: space-between;
 }
 
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}   
+
 .next{
-    align-items: flex-end;  
-}
+    align-items: flex-end;
+}   
 
 .page {
     display: flex;
